@@ -15,11 +15,15 @@ public class TestReadConsole2 {
         float myFloat = in.nextFloat();  //This parses to float
 
         System.out.println("Please enter some string: ");
-        String myString1 = in.nextLine(); //This parses to string
+//        String myString1 = in.nextLine(); //This parses to string
+//        String myString1 = in.next();
 
         System.out.println("*******Validation Part*******");
         System.out.println("Your input string: " + myString);
         System.out.println("Your input int: " + myInt);
-        System.out.println("Your input float: " + myFloat);
+//        System.out.println("Your input float: " + myFloat);
+        System.out.write(65);
+        System.out.println();
+//        System.out.println("Your input String: " + myString1);
     }
 }

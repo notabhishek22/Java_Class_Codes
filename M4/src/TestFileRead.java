@@ -17,11 +17,11 @@ class TestFileRead {
         }
 
         //this deletes a file---------
-        /*if(f3.delete()){
+        if(f3.delete()){
             System.out.println("I have deleted "+ f3.getName());
         }
         else{
             System.out.println("File is not deleted");
-        }*/
+        }
     }
 }

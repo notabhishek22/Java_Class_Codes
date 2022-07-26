@@ -9,6 +9,7 @@ class TestFileWrite{
             f1.write("hi Welcome\nThis is my first file\nok bye\n");
             String str = "file reading and file writing";
             f1.append(str);
+            f1.append("BYe Bye");
             f1.close();
         }
         catch(Exception e){

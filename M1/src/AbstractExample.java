@@ -37,7 +37,6 @@ class AbstractExample extends Bike {
         Bike kaObj = new Cycle();
         kaObj.run();
         kaObj.sleep();
-
     }
 
     void run() {
